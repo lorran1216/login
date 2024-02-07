@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Secrets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style>
+      body{
+        background-color:bisque;
+      }
+
+      .container{
+      display: flex;
+      width: 450px;
+      height: 450px;
+      border-radius: 15%;
+      margin-top: 250px;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(9, 123, 131);
+      }
+
+      .pad{
+      padding-bottom: 25px;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <!--<h1>Secrets</h1>
+  <form action="/check" method="POST">
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password" required>
+    <input type="submit" value="Submit">
+  </form>-->
+  <div class="container">
+    <main class="form-signin w-100 m-auto">
+      <form action="/check" method="POST">
+        <h1 class="h3 mb-3 fw-normal pad">Please sign in</h1>
+        <div class="form-floating pad">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating senha">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <div class="form-check text-start my-3">
+          <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Remember me
+          </label>
+        </div>
+        <button class="btn btn-primary w-100 py-2" type="submit" value="Submit">Sign in</button>
+      </form>
+    </main>
+  </div>
+
+  </body>
+
+</html>
+
+

@@ -1,0 +1,19 @@
+
+body{
+    background-color:bisque;
+}
+
+.container{
+    display: flex;
+    width: 450px;
+    height: 450px;
+    border-radius: 15%;
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 123, 131);
+}
+
+.pad{
+    padding-bottom: 25px;
+}
